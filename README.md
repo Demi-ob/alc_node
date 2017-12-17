@@ -15,7 +15,7 @@
 
  localhost isnt used to prevent conflict
 
-## OR
+ OR
 
 docker image can also be downlaoded by running 
 
@@ -24,9 +24,10 @@ docker image can also be downlaoded by running
 
 ## To run in a system environment
 
-1. Install dependencies - `npm install`
-2. Compile - `gulp scripts` 
-3. Run the development server - `npm start`
+1. clone repository `$ git clone https://github.com/Demi-ob/alc_node.git`
+2. Install dependencies - `npm install`
+3. Compile - `gulp scripts` 
+4. Run the development server - `npm start`
 
 Note: for a system environment a mongodb server should be created at `mongodb:localhost:27010/alc`
 
