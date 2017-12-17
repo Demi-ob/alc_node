@@ -1,19 +1,20 @@
 # Api that perfroms CRUD operations a mongodb database with  ALC students name
-## Javascript files output is in dist folder
+ Javascript files output is in dist folder
 
-# HOW TO RUN
 
 ## To run it in a docker environment as a container (make sure docker is installed and the repository is cloned)
 
 $ run docker-compose build
 $ run docker-compose up
-## Note: for a docker environment a mongodb server is already setup at mongodb:mongo:27010/alc
-## also in .env file,  MONGODB_URI = "mongodb://mongo:27017/alc"
-## localhost isnt used to prevent conflict
-## OR
-## docker image can also be downlaoded by running 
-$ docker pull demilade/alc_node
+ 
+ Note: for a docker environment a mongodb server is already setup at mongodb:mongo:27010/alc
+ also in .env file,  MONGODB_URI = "mongodb://mongo:27017/alc"
+ localhost isnt used to prevent conflict
 
+## OR
+
+docker image can also be downlaoded by running 
+$ docker pull demilade/alc_node
 
 
 ## To run in a system environment
@@ -21,8 +22,9 @@ $ docker pull demilade/alc_node
 1. Install dependencies - `npm install`
 2. Compile - `gulp scripts` 
 3. Run the development server - `npm start`
-#Note: for a system environment a mongodb server should be setup at mongodb:localhost:27010/alc
-#also in .env file,  MONGODB_URI = "mongodb://localhost:27017/alc"
+
+Note: for a system environment a mongodb server should be setup at mongodb:localhost:27010/alc
+also in .env file,  MONGODB_URI = "mongodb://localhost:27017/alc"
 
 
 
